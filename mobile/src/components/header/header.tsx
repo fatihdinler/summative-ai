@@ -7,10 +7,10 @@ const Header = () => {
   return (
     <View style={styles.container}>
       <View style={styles.logo}>
-      <Logo  />
+        <Logo />
       </View>
       <View style={styles.github}>
-      <Github />
+        <Github />
       </View>
     </View>
   )
@@ -22,10 +22,10 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
   },
   logo: {
-    marginLeft: 15
+    marginLeft: 15,
   },
   github: {
     marginRight: 15,
